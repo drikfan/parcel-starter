@@ -1,14 +1,14 @@
 /*   Project colors  */
-$color-primary: #15265e;
+$color-primary: rgb(20, 20, 20);
 $color-secondary: #e43500;
 $color-light: #fff;
 $color-dark: #000;
 
-$color-bg-primary: rgb(222, 230, 247);
+$color-bg-primary: $color-light;
 $color-bg-secondary: #a6c5f5;
 
 $color-txt-dark: $color-primary;
-$color-txt-light: rgb(245, 245, 245);
+$color-txt-light: $color-light;
 
 $color-button: $color-primary;
 
