@@ -1,0 +1,29 @@
+$max-w-sm: 540px;
+$max-w-md: 720px;
+$max-w-lg: 960px;
+$max-w-xl: 1140px;
+$max-w-xxl: 1320px;
+
+.container {
+  max-width: $max-w-sm;
+  @media (min-width: $bp-md) {
+    max-width: $max-w-md;
+  }
+  @media (min-width: $bp-lg) {
+    max-width: $max-w-lg;
+  }
+  @media (min-width: $bp-xl) {
+    max-width: $max-w-xl;
+  }
+  @media (min-width: $bp-xxl) {
+    max-width: $max-w-xxl;
+  }
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container--fluid {
+  max-width: auto;
+  width: 100%;
+}

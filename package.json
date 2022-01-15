@@ -1,0 +1,20 @@
+{
+  "name": "TwoJSTest",
+  "version": "1.0.0",
+  "description": "twojs test",
+  "author": "Derek Fansler",
+  "license": "UNLISCENCED",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.0",
+    "parcel": "^2.2.0"
+  },
+  "prettier": {
+    "printWidth": 100
+  },
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  }
+}

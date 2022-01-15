@@ -1,0 +1,46 @@
+button,
+.btn {
+  font-size: 0.9rem;
+  font-weight: $medium;
+  text-transform: uppercase;
+  // box-sizing: border-box;
+  border: none;
+
+  color: #fff;
+  background-color: $color-button;
+  padding: 0.8em 1.4em 0.6em 1.4em;
+  cursor: pointer;
+  display: inline-flex;
+  place-items: center;
+  text-decoration: none;
+}
+button:hover,
+button:focus-visible,
+.btn:hover,
+.button:focus-visible {
+  background-color: darken($color-button, 5%);
+  color: $color-light;
+  text-decoration: none;
+}
+
+.btn-ico {
+  display: inline-block;
+  margin-left: 0.5em;
+
+  box-sizing: content-box;
+  height: 1rem;
+  width: 1rem;
+}
+
+.btn-outline {
+  color: $color-button;
+  background-color: #fff;
+  border: 1px solid $color-button;
+  padding: calc(0.8em - 1px) 1.4em calc(0.6em - 1px) 1.4em;
+  box-sizing: border-box;
+}
+.btn-outline:hover,
+.btn-outline:focus-visible {
+  color: #fff;
+  background-color: $color-button;
+}

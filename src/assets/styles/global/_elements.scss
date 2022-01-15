@@ -1,0 +1,48 @@
+/********************
+*      GLOBALS
+********************/
+body {
+  color: $color-txt-dark;
+  background-color: $color-bg-primary;
+  font-size: 1rem;
+  font-family: $DisplayFont;
+  height: 100%;
+}
+
+a {
+  color: $color-link;
+}
+
+a:hover {
+  color: lighten($color-link, 10%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $TitleFont;
+  font-weight: $black;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}

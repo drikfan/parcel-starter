@@ -1,0 +1,63 @@
+/*   Project colors  */
+$color-primary: #15265e;
+$color-secondary: #e43500;
+$color-light: #fff;
+$color-dark: #000;
+
+$color-bg-primary: rgb(222, 230, 247);
+$color-bg-secondary: #a6c5f5;
+
+$color-txt-dark: $color-primary;
+$color-txt-light: rgb(245, 245, 245);
+
+$color-button: $color-primary;
+
+$color-link: #162f80;
+
+/* Font Weights */
+$thin: 100;
+$exlight: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$exbold: 800;
+$black: 900;
+
+/* breakpoints */
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+@mixin phone {
+  @media (min-width: #{$bp-sm}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$bp-md}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$bp-lg}) {
+    @content;
+  }
+}
+
+@mixin desktopXL {
+  @media (min-width: #{$bp-xl}) {
+    @content;
+  }
+}
+
+@mixin desktopXXL {
+  @media (min-width: #{$bp-xxl}) {
+    @content;
+  }
+}
