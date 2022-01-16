@@ -21,9 +21,23 @@ $max-w-xxl: 1320px;
 
   margin-left: auto;
   margin-right: auto;
+  padding: 0 min(1.5rem, 5vw);
 }
 
 .container--fluid {
   max-width: auto;
   width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+// specify a min-width if you want them to wrap. overwrite per project
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }

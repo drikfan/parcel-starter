@@ -1,18 +1,19 @@
 /*   Project colors  */
-$color-primary: rgb(20, 20, 20);
-$color-secondary: #e43500;
-$color-light: #fff;
-$color-dark: #000;
+$color-primary: rgb(31, 41, 55);
+$color-secondary: rgb(55, 65, 81);
+$color-highlight: rgb(20, 184, 166);
 
-$color-bg-primary: $color-light;
-$color-bg-secondary: #a6c5f5;
+$color-bg-primary: rgb(255, 255, 255);
+$color-bg-secondary: rgb(249, 250, 251);
+$color-bg-highlight: rgb(158, 198, 250);
 
 $color-txt-dark: $color-primary;
-$color-txt-light: $color-light;
+$color-txt-light: #fff;
 
-$color-button: $color-primary;
+$color-txt-header: $color-primary;
+$color-txt-body: rgb(55, 65, 81);
 
-$color-link: #162f80;
+$color-link: $color-highlight;
 
 /* Font Weights */
 $thin: 100;

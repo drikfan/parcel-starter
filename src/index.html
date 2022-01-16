@@ -2,12 +2,139 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Simple Parcel App</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./assets/styles/main.scss" />
     <script type="module" src="./assets/js/app.js" defer></script>
   </head>
   <body>
-    <h1>Parcel Starting point</h1>
-    <p>run npm install, then npm run dev</p>
+    <main>
+      <header class="page-header">
+        <div class="container">
+          <h1>Simple Page layout</h1>
+        </div>
+      </header>
+
+      <section class="container">
+        <h3>No Columns</h3>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet
+          <a class="btn" href="#">consectetur adipisicing</a> elit. Laboriosam quas ducimus
+          veritatis <a href="#">consectetur iusto alias</a>, vel nulla ullam tenetur quidem
+          voluptate animi dignissimos debitis,
+          <a class="btn btn-outline btn-small" href="#">dolorem</a> numquam dolores iure. Inventore,
+          aliquid? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci soluta, odit
+          recusandae architecto nobis numquam obcaecati eos illo sequi. Enim maxime autem fugiat
+          voluptatibus, repellendus libero eaque officia, quas, laboriosam molestias eos corrupti
+          illum saepe quod adipisci? Neque reprehenderit vel eos assumenda
+          <a href="#">ut, natus, aliquam</a> error minima dolorum nihil earum odit doloremque
+          excepturi pariatur hic. Qui sunt consectetur quas nobis voluptatibus, totam quam ab
+          nesciunt aut, odio, harum adipisci deserunt ea. Sit magnam est nisi
+          <a class="btn btn-small" href="#">dolorem</a> . Sint, ab dolorum, fuga dolores officiis
+          eos itaque exercitationem nemo, quo quia fugit tempora. Esse, illum? Asperiores
+          repudiandae recusandae corporis hic ex odio nisi!
+        </p>
+      </section>
+      <section class="container">
+        <h3>Two Column</h3>
+        <hr />
+        <div class="row">
+          <div class="column column-2">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium culpa obcaecati
+              deleniti sunt quam dolor, veniam accusamus earum assumenda fuga tempore id rerum
+              ducimus quidem dolore, ipsam itaque ea ullam?
+            </p>
+          </div>
+          <div class="column column-2">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium culpa obcaecati
+              deleniti sunt quam dolor, veniam accusamus earum assumenda fuga tempore id rerum
+              ducimus quidem dolore, ipsam itaque ea ullam?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h3>Three Column</h3>
+        <hr />
+        <div class="row">
+          <div class="column column-3">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium culpa obcaecati
+              deleniti sunt quam dolor, veniam accusamus earum assumenda fuga tempore id rerum
+              ducimus quidem dolore, ipsam itaque ea ullam?
+            </p>
+          </div>
+          <div class="column column-3">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium culpa obcaecati
+              deleniti sunt quam dolor, veniam accusamus earum assumenda fuga tempore id rerum
+              ducimus quidem dolore, ipsam itaque ea ullam?
+            </p>
+          </div>
+          <div class="column column-3">
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium culpa obcaecati
+              deleniti sunt quam dolor, veniam accusamus earum assumenda fuga tempore id rerum
+              ducimus quidem dolore, ipsam itaque ea ullam?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <h3>Grid</h3>
+        <hr />
+        <div class="image-grid">
+          <div>
+            <img
+              src="./assets/images/horizon-1.jpg"
+              srcset="./assets/images/horizon-1@2x.jpg 2x"
+              alt="A seascape"
+            />
+          </div>
+          <div>
+            <img
+              src="./assets/images/horizon-2.jpg"
+              srcset="./assets/images/horizon-2@2x.jpg 2x"
+              alt="A seascape"
+            />
+          </div>
+          <div>
+            <img
+              src="./assets/images/horizon-3.jpg"
+              srcset="./assets/images/horizon-3@2x.jpg 2x"
+              alt="A seascape"
+            />
+          </div>
+          <div>
+            <img
+              src="./assets/images/horizon-4.jpg"
+              srcset="./assets/images/horizon-4@2x.jpg 2x"
+              alt="A seascape"
+            />
+          </div>
+          <div>
+            <img
+              src="./assets/images/horizon-5.jpg"
+              srcset="./assets/images/horizon-5@2x.jpg 2x"
+              alt="A seascape"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>copyright &copy; 2022 Derek Fansler</p>
+      </div>
+    </footer>
   </body>
 </html>
